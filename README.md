@@ -1,0 +1,6 @@
+# Detection-of-Mild-Cognitive-Impairment-with-Resting-State-EEG-Signals-of-Broca-s-Area-and-a-Verbal-F
+This is was a project for detecting mild cognitive impairment with a Machine Learning algorithm and measurements of EEG-data and a cognitive test called the Regensburger Wortflüssigkeitstest (Regensburger word fluency test)
+
+#Abstract
+Mild Cognitive Impairment (MCI) is known as prepress of dementia and Alzheimer Disease, which are not yet curable. Therefore, early detection is important to initiate preventive measures. It is possible to detect these diseases with a verbal fluency test like ”Regensburger-Wortflüssigkeitstest” and resting-state electroencephalography (EEG) measurements. I developed a Machine Learning algorithm to classify test-participants whether they have an MCI and thus a risk of future dementia or they are healthy in a verbal fluency aspect. The resting-state EEG data recorded by two channels, which were placed on Broca’s Area, are the basis of this model. The resulted 20-point-spectrum was used as features for a genetic algorithm in combination with several classification models like Random Forest, Support-Vector-Machine or XGBoost. With this algorithm the test score which describe a trend to or a presence of Mild Cognitive Impairment can be predicted with an 90.91% accuracy.
+
